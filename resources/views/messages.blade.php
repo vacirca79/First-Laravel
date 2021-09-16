@@ -11,6 +11,8 @@
 <h1>Messages</h1>
 
 <ul>
+<b><a href="/message/{{$message->id}}">{{$message->title}}:</a></b><br>
+
 @foreach ($messages as $message)  
     <li>
         <b>{{$message->title}}:</b><br>

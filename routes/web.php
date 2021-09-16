@@ -29,3 +29,7 @@ Route::get('/messages', 'MessageController@showAll');
 
 Route::post('/create', 'MessageController@create');
 
+Route::get('/message/{id}', 'MessageController@view');
+
+Route::delete('/message/{id}', 'MessageController@delete');
+
